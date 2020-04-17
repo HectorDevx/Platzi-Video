@@ -1,0 +1,25 @@
+/*-------------------------------
+Typography
+-------------------------------*/
+$font: "Muli", sans-serif;
+
+/*-------------------------------
+Colors
+-------------------------------*/
+$white: #fff;
+$deggreen: linear-gradient(to bottom, #aaffa9, #11ffbd);
+
+/*-------------------------------
+Structure
+-------------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0px;
+  font-family: $font;
+  background: $deggreen;
+}

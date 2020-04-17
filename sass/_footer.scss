@@ -1,0 +1,23 @@
+/*-------------------------------
+Footer
+-------------------------------*/
+
+.footer {
+  background-color: #ab88ff;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+
+  a {
+    color: $white;
+    cursor: pointer;
+    font-size: 14;
+    padding-left: 30px;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+  }
+}
