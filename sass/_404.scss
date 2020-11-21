@@ -13,16 +13,14 @@
 
     h3 {
       font-size: 20px;
-      color: $white;
-      font-family: $font;
+      color: white;
       font-weight: normal;
     }
   }
 
   &--title {
     font-size: 60px;
-    color: $white;
-    font-family: $font;
+    color: white;
     animation-duration: 2.5s;
     animation-fill-mode: both;
     animation-iteration-count: infinite;
