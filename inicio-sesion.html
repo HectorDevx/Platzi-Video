@@ -4,13 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport"content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible"content="ie=edge">
-    <title>Iniciar Sesión</title>
+    <link rel="shortcut icon" type="image/jpg" href="../img/favicon.png" />
+    <title>Platzi Video - Iniciar Sesión</title>
     <link href="https://fonts.googleapis.com/css?family=Muli&display=swap"rel="stylesheet">
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <header class="header">
-    <img class="header__img"src="../img/logo.png"alt="">
+     <a href="/">
+        <img
+          class="header__img"
+          src="../img/logo.png"
+          alt="Platzi-Video-Logo"
+        />
+      </a>
     </header>
     <section class="login">
         <section class="login__container">
@@ -21,21 +28,32 @@
                 <button class="button">Iniciar sesión</button>
             <div class="login__container--remember-me">
                 <label>
-                    <input type="checkbox" id="caja" value="checkbox"> Recuerdame </input>
+                    <input type="checkbox" id="caja" value="checkbox">Recuerdame </input>
                 </label>
                 <a href="/">Olvidé mi contraseña</a>
             </div>
         </form>
         <section class="login__container--socialmedia">
             <div>
-                <img class="social-media--icon" src="../img/google-icon.png" alt="Google"> Inicia sesión con Google
+                <img class="social-media--icon" src="../img/google-icon.png" alt="Google"> 
+                <h5>
+                    Inicia sesión con Google
+                </h5>
             </div>
             <div>
-                <img class="social-media--icon" src="../img/twitter-icon.png" alt="Twitter"> Inicia sesión con Twitter
+                <img class="social-media--icon" src="../img/twitter-icon.png" alt="Twitter"> 
+                <h5>
+                    Inicia sesión con Twitter
+                </h5>
             </div>
         </section>
-        <p class="login__container--register">¿No tienes ninguna cuenta? <a href="/">Regístrate</a></p>
+        <p class="login__container--register">¿No tienes ninguna cuenta? <a href="/registro.html">Regístrate</a></p>
     </section>
 </section>
+<footer class="footer">
+      <a href="/">Términos de uso</a>
+      <a href="/">Declaración de privacidad</a>
+      <a href="/">Centro de ayuda</a>
+    </footer>
 </body>
 </html>

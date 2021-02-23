@@ -1,14 +1,14 @@
 /*-------------------------------
 Typography
 -------------------------------*/
-$font: "Muli", sans-serif;
+$font: "Montserrat", sans-serif;
 
 /*-------------------------------
 Colors
 -------------------------------*/
 $white: #fff;
-$deggreen: linear-gradient(to bottom, #aaffa9, #11ffbd);
-
+$black: #190f30;
+$deg: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 /*-------------------------------
 Structure
 -------------------------------*/
@@ -21,5 +21,7 @@ Structure
 body {
   margin: 0px;
   font-family: $font;
-  background: $deggreen;
+  background: $deg;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
